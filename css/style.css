@@ -42,6 +42,17 @@
   letter-spacing: 0.4px;
   transition: all 0.3s ease-in-out 0s;
 }
+.header .header-navbar .a:hover::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -6px;
+  left: 0;
+  width: 0;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out 0s;
+}
 .header .header-navbar .active {
   color: #0078ff;
 }
