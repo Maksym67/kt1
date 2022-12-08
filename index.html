@@ -13,26 +13,26 @@
   <body>
     <header id="header" class="header">
       <div class="logo-text">FirstControlPoint</div>
-      <div class="header-navbar">
-        <div class="header-navbar-text">Home</div>
-        <div class="header-navbar-text">About</div>
-        <div class="header-navbar-text">Services</div>
-        <div class="header-navbar-text">Work</div>
-        <div class="header-navbar-text">Blog</div>
-        <div class="header-navbar-text">Drop down</div>
-        <div class="header-navbar-text">Contact</div>
-      </div>
+      <nav class="header-navbar" id="header-navbar">
+        <a class="header-navbar-text" href="#home">Home</a>
+        <a class="header-navbar-text" href="#about">About</a>
+        <a class="header-navbar-text" href="#services">Services</a>
+        <a class="header-navbar-text" href="#portfolio">Work</a>
+        <a class="header-navbar-text" href="#blog">Blog</a>
+        <a class="header-navbar-text">Drop down</a>
+        <a class="header-navbar-text" href="#contact">Contact</a>
+      </nav>
     </header>
-    <div class="bg-img">
+    <div class="bg-img" id="home">
       <div class="bg-overlay"></div>
       <div class="hyper-title">
         <h1 class="hyper-title-main mb-4">I am Morgan Freeman</h1>
         <div class="hyper-title-desc mb-4"><span class="typed"></span></div>
       </div>
     </div>
-    <main>
+    <main data-bs-spy="scroll" data-bs-target="#header-navbar" data-bs-offset="0" class="scrollspy-example" tabindex="0">
       <div class="main-section1">
-        <div class="about-section">
+        <div class="about-section" id="about">
           <div class="row about-section-row">
             <div class="col-6">
               <div class="about-sections-contacts">
@@ -88,7 +88,7 @@
             </div>
           </div>
         </div>
-        <div class="services-section">
+        <div class="services-section" id="services">
           <h3 class="section-title">Services</h3>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
           <div class="mini-divider"></div>
@@ -213,7 +213,7 @@
           </div>
         </div>
       </div>
-      <div class="main-section2">
+      <div class="main-section2" id="portfolio">
         <h3 class="section-title">Portfolio</h3>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
         <div class="mini-divider"></div>
@@ -326,12 +326,99 @@
         <div class="bg-overlay3"></div>
         <div class="row">1</div>
       </div>
-      <div class="main-section3">
+      <div class="main-section3" id="blog">
         <h3 class="section-title">Blog</h3>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
         <div class="mini-divider"></div>
+        <div class="row w-100 d-flex justify-content-center post-group">
+          <div class="row row-cols-1 row-cols-md-3">
+            <div class="col">
+              <div class="card h-100">
+                <img src="./imgs/posts/post-1.jpg" class="card-img-top" alt="Not found">
+                <div class="card-body">
+                  <div class="card-category-box">
+                    <div class="card-category">
+                      <h6 class="category">Travel</h6>
+                    </div>
+                  </div>
+                  <h5 class="card-title">See more ideas about Travel</h5>
+                  <p class="card-text">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+                </div>
+                <div class="card-footer">
+                  <div>
+                    <img src="./imgs/swiper/testimonial-2.jpg" alt="Not found">
+                    <a href="https://www.google.com">Morgan Freeman</a>
+                  </div>
+                  <div class="post-date">
+                    <div class="bi bi-clock"></div>
+                    <span>10 min</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./imgs/posts/post-2.jpg" class="card-img-top" alt="Not found">
+                <div class="card-body">
+                  <div class="card-category-box">
+                    <div class="card-category">
+                      <h6 class="category">Web Design</h6>
+                    </div>
+                  </div>
+                  <h5 class="card-title">See more ideas about Travel</h5>
+                  <p class="card-text">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+                </div>
+                <div class="card-footer">
+                  <div>
+                    <img src="./imgs/swiper/testimonial-2.jpg" alt="Not found">
+                    <a href="https://www.google.com">Morgan Freeman</a>
+                  </div>
+                  <div class="post-date">
+                    <div class="bi bi-clock"></div>
+                    <span>10 min</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./imgs/posts/post-3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="card-category-box">
+                    <div class="card-category">
+                      <h6 class="category">Web Design</h6>
+                    </div>
+                  </div>
+                  <h5 class="card-title">See more ideas about Travel</h5>
+                  <p class="card-text">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+                </div>
+                <div class="card-footer">
+                  <div>
+                    <img src="./imgs/swiper/testimonial-2.jpg" alt="Not found">
+                    <a href="https://www.google.com">Morgan Freeman</a>
+                  </div>
+                  <div class="post-date">
+                    <div class="bi bi-clock"></div>
+                    <span>10 min</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-img4" id="contact">
+        <div class="bg-overlay4"></div>
       </div>
     </main>
+    <footer>
+      <div class="main-footer">
+        <div class="copyright-box">
+          <p class="copyright">© Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
+          <div class="credits"> Designed by <a href="https://google.com/">Maksym : )</a></div>
+        </div>
+      </div>
+    </footer>
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
       <i class="bi bi-arrow-up-short"></i>
     </a>
