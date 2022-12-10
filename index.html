@@ -19,8 +19,29 @@
         <a class="header-navbar-text" href="#services">Services</a>
         <a class="header-navbar-text" href="#portfolio">Work</a>
         <a class="header-navbar-text" href="#blog">Blog</a>
-        <a class="header-navbar-text">Drop down</a>
-        <a class="header-navbar-text" href="#contact">Contact</a>
+        <div class="dropdown">
+          <a class="header-navbar-dropdown">
+            Drop down
+            <i class="bi bi-chevron-down"></i>
+          </a>
+          <div class="dropdown-content">
+            <a href="#">Drop Down 1</a>
+            <div class="deep-dropdown">
+              <a href="#">Deep Drop Down</a>
+              <a href="#" style="font-weight: bold;">></a>
+              <div class="deep-dropdown-content">
+                <a href="#">Drop Down 1</a>
+                <a href="#">Drop Down 2</a>
+                <a href="#">Drop Down 3</a>
+                <a href="#">Drop Down 4</a>
+              </div>
+            </div>
+            <a href="#">Drop Down 2</a>
+            <a href="#">Drop Down 3</a>
+            <a href="#">Drop Down 4</a>
+          </div>
+        </div>
+        <a class="header-navbar-text" href="#contact" style="margin-right: 0;">Contact</a>
       </nav>
     </header>
     <div class="bg-img" id="home">
@@ -324,7 +345,85 @@
       </div>
       <div class="bg-img3">
         <div class="bg-overlay3"></div>
-        <div class="row">1</div>
+        <div class="row">
+          <div class="col">
+            <div class="testimonials-slider swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden" data-aos="fade-up" data-aos-delay="100">
+              <div class="swiper-wrapper" id="swiper-wrapper-0d1d8fb0a9271f37" aria-live="off" style="transform: translate3d(-3348px, 0px, 0px); transition-duration: 0ms;">
+                <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="0" role="group" aria-label="1 / 2">
+                  <div class="testimonial-box">
+                    <div class="author-test">
+                      <img src="./imgs/swiper/testimonial-2.jpg" alt="" class="rounded-circle b-shadow-a">
+                      <span class="author">Xavi Alonso</span>
+                    </div>
+                    <div class="content-test">
+                      <p class="description lead">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="1" role="group" aria-label="2 / 2">
+                  <div class="testimonial-box">
+                    <div class="author-test">
+                      <img src="./imgs/swiper/testimonial-4.jpg" alt="" class="rounded-circle b-shadow-a">
+                      <span class="author">Marta Sorat</span>
+                    </div>
+                    <div class="content-test">
+                      <p class="description lead">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-slide-prev swiper-slide-duplicate-next" data-swiper-slide-index="0" role="group" aria-label="1 / 2">
+                  <div class="testimonial-box">
+                    <div class="author-test">
+                      <img src="./imgs/swiper/testimonial-2.jpg" alt="" class="rounded-circle b-shadow-a">
+                      <span class="author">Xavi Alonso</span>
+                    </div>
+                    <div class="content-test">
+                      <p class="description lead">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="1" role="group" aria-label="2 / 2">
+                  <div class="testimonial-box">
+                    <div class="author-test">
+                      <img src="./imgs/swiper/testimonial-4.jpg" alt="" class="rounded-circle b-shadow-a">
+                      <span class="author">Marta Sorat</span>
+                    </div>
+                    <div class="content-test">
+                      <p class="description lead">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-slide-duplicate swiper-slide-next swiper-slide-duplicate-prev" data-swiper-slide-index="0" role="group" aria-label="1 / 2">
+                  <div class="testimonial-box">
+                    <div class="author-test">
+                      <img src="./imgs/swiper/testimonial-2.jpg" alt="" class="rounded-circle b-shadow-a">
+                      <span class="author">Xavi Alonso</span>
+                    </div>
+                    <div class="content-test">
+                      <p class="description lead">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="1" role="group" aria-label="2 / 2">
+                  <div class="testimonial-box">
+                    <div class="author-test">
+                      <img src="./imgs/swiper/testimonial-4.jpg" alt="" class="rounded-circle b-shadow-a">
+                      <span class="author">Marta Sorat</span>
+                    </div>
+                    <div class="content-test">
+                      <p class="description lead">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span>
+                <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 2" aria-current="true"></span>
+              </div>
+              <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="main-section3" id="blog">
         <h3 class="section-title">Blog</h3>
@@ -428,7 +527,33 @@
                   <button type="submit">Send Message</button>
                 </div>
               </div>
-              <div class="col">1</div>
+              <div class="col">
+                <h5 class="contacts-title">Get in Touch</h5>
+                <p class="contacts-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem expedita aperiam aliquid at. Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis mollitia inventore?</p>
+                <div class="contacts-info">
+                  <span class="bi bi-geo-alt"></span>3 RYNOK SQUARE LVIV, 79010
+                </div>
+                <div class="contacts-info">
+                  <span class="bi bi-phone"></span>(067) 429-5464
+                </div>
+                <div class="contacts-info">
+                  <span class="bi bi-envelope"></span>contact@example.com
+                </div>
+                <div class="contacts-social-ico">
+                  <span class="ico-circle">
+                    <i class="bi bi-facebook"></i>
+                  </span>
+                  <span class="ico-circle">
+                    <i class="bi bi-instagram"></i>
+                  </span>
+                  <span class="ico-circle">
+                    <i class="bi bi-twitter"></i>
+                  </span>
+                  <span class="ico-circle">
+                    <i class="bi bi-linkedin"></i>
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
