@@ -612,6 +612,7 @@
   border-radius: 0;
 }
 .bg-img4 .contacts-section .contacts .col textarea {
+  resize: none;
   border-radius: 0;
 }
 .bg-img4 .contacts-section .contacts .col button {
